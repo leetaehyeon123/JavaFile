@@ -4,10 +4,10 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 
-public class ReadData {// 파일 내용 읽어오기
+public class ReadFile {// 파일 내용 읽어오기
     private String content = "";
 
-    public ReadData(String path) {
+    public ReadFile(String path) {
         BufferedReader reader;
 
         try {
